@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja de Pets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Loja de Pets</h1>
+        <nav>
+            <ul>
+                <li><a href="#dogs">Cães</a></li>
+                <li><a href="#cats">Gatos</a></li>
+                <li><a href="#food">Ração & Comida</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="dogs">
+            <h2>Cães</h2>
+            <div class="product">
+                <img src="dog1.jpg" alt="Golden Retriever">
+                <h3>Golden Retriever</h3>
+                <p>Preço: R$ 2.500,00</p>
+            </div>
+            <div class="product">
+                <img src="dog2.jpg" alt="Poodle">
+                <h3>Poodle</h3>
+                <p>Preço: R$ 1.800,00</p>
+            </div>
+        </section>
+        <section id="cats">
+            <h2>Gatos</h2>
+            <div class="product">
+                <img src="cat1.jpg" alt="Persa">
+                <h3>Persa</h3>
+                <p>Preço: R$ 1.200,00</p>
+            </div>
+            <div class="product">
+                <img src="cat2.jpg" alt="Siamês">
+                <h3>Siamês</h3>
+                <p>Preço: R$ 1.000,00</p>
+            </div>
+        </section>
+        <section id="food">
+            <h2>Ração & Comida</h2>
+            <div class="product">
+                <img src="dogfood.jpg" alt="Ração para Cães">
+                <h3>Ração para Cães</h3>
+                <p>Preço: R$ 80,00 (10kg)</p>
+            </div>
+            <div class="product">
+                <img src="catfood.jpg" alt="Comida de Gato">
+                <h3>Comida de Gato</h3>
+                <p>Preço: R$ 60,00 (8kg)</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Loja de Pets. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
